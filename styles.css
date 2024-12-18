@@ -1,0 +1,75 @@
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.file-upload {
+    margin-bottom: 20px;
+}
+
+.font-size-control {
+    margin-top: 20px;
+}
+
+#fontSizeSlider {
+    width: 200px;
+}
+
+#fontSizeValue {
+    margin-left: 10px;
+}
+
+#fontSizeSlider2 {
+    width: 200px;
+}
+
+#fontSizeValue2 {
+    margin-left: 10px;
+}
+
+.subtitles-box {
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    margin: 0 auto;
+    overflow-y: auto;
+    display: block;
+}
+
+#subtitles2 {
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
